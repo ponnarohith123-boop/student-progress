@@ -14,13 +14,13 @@ average = total / len(marks)
 if average >= 90:
   grade = "A"
 
-elif average >= 80 and average < 90:
+elif average >= 80:
   grade = "B"
 
-elif average >= 70 and average < 80:
+elif average >= 70:
   grade = "C"
 
-elif average >= 60 and average < 70:
+elif average >= 60:
   grade = "D"
 
 else:
